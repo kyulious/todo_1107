@@ -20,7 +20,7 @@ body{
     color: #fff;
     letter-spacing: 15px;
     font-size: 50px;
-    left: 30%;
+    left: 40%;
     margin-top: 5%;
     position: relative;
 }
@@ -169,13 +169,30 @@ form::after {
     #item{
         width: 200px;
     }
+    .top #sun{
+        left: 40%;
+        position: relative;
+        margin-top: 8%;
+    }
+    .top >h1{
+        left: 30%;
+    }
   }
   @media screen and (max-width: 401px){
     #item{
         width: 150px;
     }
-    #sun{
+    .top #sun{
+        left: 30%;
+        position: relative;
+        margin-top: 8%;
+    }
+    .top >h1{
+        color: #fff;
+        letter-spacing: 15px;
+        font-size: 50px;
         left: 20%;
+        margin-top: 5%;
         position: relative;
     }
   }
